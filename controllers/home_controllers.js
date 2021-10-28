@@ -2,7 +2,7 @@
 
 const jwt = require('jsonwebtoken');
 const con = require('../db');
-
+//let a=10
 
 exports.login = ((req, res) => {
     console.log(req.body)
